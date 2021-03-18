@@ -1,0 +1,26 @@
+{
+  "name": "unit6-static-nodejs-and-express-site",
+  "version": "1.0.0",
+  "description": "treehouse project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoskinenTimo/Unit6-Static-Nodejs-and-Express-Site.git"
+  },
+  "keywords": [
+    "unit6"
+  ],
+  "author": "Timo Koskinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoskinenTimo/Unit6-Static-Nodejs-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/KoskinenTimo/Unit6-Static-Nodejs-and-Express-Site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
