@@ -1,49 +1,104 @@
 {
   "projects": [
     {
-      "id" : "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": []
+      "id" : "0",
+      "project_name": "A Random Quote Generator",
+      "description": "A quote generator for displaying randomly chosen quotes from an array. Changes quote automatically or by click.",
+      "technologies": [
+        {
+          "Javascript":"Javascript"
+        }
+      ],
+      "live_link": "https://koskinentimo.github.io/aRandomQuoteGenerator/",
+      "github_link": "https://github.com/KoskinenTimo/aRandomQuoteGenerator",
+      "image_urls": [
+        {
+          "square": "images/quote_generator_square.jpg"
+        },
+        {
+          "landscape": "images/quote_generator_landscape.jpg"
+        }
+      ]
     },
     {
-      "id" : "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": []
+      "id" : "1",
+      "project_name": "Data Pagination And Filtering",
+      "description": "A set of people displayed, set cards have pagination added and people can be filtered with search input. Pagination updates accordingly as the set becomes smaller by filtering.",
+      "technologies": [
+        {
+          "Javascript":"Javascript"
+        }
+      ],
+      "live_link": "https://koskinentimo.github.io/Unit2-Data-Pagination-And-Filtering/",
+      "github_link": "https://github.com/KoskinenTimo/Unit2-Data-Pagination-And-Filtering",
+      "image_urls": [
+        {
+          "square": "images/data_pagination_square.jpg"
+        },
+        {
+          "landscape": "images/data_pagination_landscape.jpg"
+        }
+      ]
     },
     {
-      "id" : "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": []
+      "id" : "2",
+      "project_name": "Interactive Form",
+      "description": "A form page with required and optional details. Input is validated real-time for all the fields that are required for submit to work. Visual effects for invalid input from user.",
+      "technologies": [
+        {
+          "Javascript":"Javascript"
+        }
+      ],
+      "live_link": "https://koskinentimo.github.io/Unit3-Interactive-Form/",
+      "github_link": "https://github.com/KoskinenTimo/Unit3-Interactive-Form",
+      "image_urls": [
+        {
+          "square": "images/interactive_form_square.jpg"
+        },
+        {
+          "landscape": "images/interactive_form_landscape.jpg"
+        }
+      ]
     },
     {
-      "id" : "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": []
+      "id" : "3",
+      "project_name": "OOP Game Show App",
+      "description": "Phrase hunter game where a player chooses letters by clicking or pressing on keyboard to make phrase visible. Counts wrong guesses, wins and losses.",
+      "technologies": [
+        {
+          "Javascript":"Javascript"
+        }
+      ],
+      "live_link": "https://koskinentimo.github.io/Unit4-OOP-Game-Show-App/",
+      "github_link": "https://github.com/KoskinenTimo/Unit4-OOP-Game-Show-App",
+      "image_urls": [
+        {
+          "square": "images/game_show_square.jpg"
+        },
+        {
+          "landscape": "images/game_show_landscape.jpg"
+        }
+      ]
     },
     {
-      "id" : "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": []
+      "id" : "4",
+      "project_name": "Public API Requests",
+      "description": "A page of profiles that have been requested from a public API. The set is filtered with search input. Each profile card has a more detailed screen. In addition the profiles can be scrolled in the details screen.",
+      "technologies": [
+        {
+          "Javascript":"Javascript"
+        }
+      ],
+      "live_link": "https://koskinentimo.github.io/Unit5-Public-API-Requests/",
+      "github_link": "https://github.com/KoskinenTimo/Unit5-Public-API-Requests",
+      "image_urls": [
+        {
+          "square": "images/public_api_square.jpg"
+        },
+        {
+          "landscape": "images/public_api_landscape.jpg"
+        }
+      ]
     }
   ]
 }
