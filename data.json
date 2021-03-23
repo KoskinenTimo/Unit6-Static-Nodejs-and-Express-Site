@@ -6,7 +6,7 @@
       "description": "A quote generator for displaying randomly chosen quotes from an array. Changes quote automatically or by click.",
       "technologies": [
         {
-          "Javascript":"Javascript"
+          "tech":"Javascript"
         }
       ],
       "live_link": "https://koskinentimo.github.io/aRandomQuoteGenerator/",
@@ -26,7 +26,7 @@
       "description": "A set of people displayed, set cards have pagination added and people can be filtered with search input. Pagination updates accordingly as the set becomes smaller by filtering.",
       "technologies": [
         {
-          "Javascript":"Javascript"
+          "tech":"Javascript"
         }
       ],
       "live_link": "https://koskinentimo.github.io/Unit2-Data-Pagination-And-Filtering/",
@@ -46,7 +46,7 @@
       "description": "A form page with required and optional details. Input is validated real-time for all the fields that are required for submit to work. Visual effects for invalid input from user.",
       "technologies": [
         {
-          "Javascript":"Javascript"
+          "tech":"Javascript"
         }
       ],
       "live_link": "https://koskinentimo.github.io/Unit3-Interactive-Form/",
@@ -66,7 +66,7 @@
       "description": "Phrase hunter game where a player chooses letters by clicking or pressing on keyboard to make phrase visible. Counts wrong guesses, wins and losses.",
       "technologies": [
         {
-          "Javascript":"Javascript"
+          "tech":"Javascript"
         }
       ],
       "live_link": "https://koskinentimo.github.io/Unit4-OOP-Game-Show-App/",
@@ -86,7 +86,7 @@
       "description": "A page of profiles that have been requested from a public API. The set is filtered with search input. Each profile card has a more detailed screen. In addition the profiles can be scrolled in the details screen.",
       "technologies": [
         {
-          "Javascript":"Javascript"
+          "tech":"Javascript"
         }
       ],
       "live_link": "https://koskinentimo.github.io/Unit5-Public-API-Requests/",

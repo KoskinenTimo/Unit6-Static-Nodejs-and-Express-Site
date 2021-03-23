@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+
+  a(href='/')
+    h2 Back Home
+
+  h5 Error Message: #{error.message}
+  h5 Error Status: #{error.status}
+  h5 Error Stack: #{error.stack}

@@ -15,19 +15,32 @@ app.get('/about', (req,res) => {
   res.render('about');
 });
 
-app.get('/project/:id', (req,res) => {
-  const {id} = res.params;
-
+app.get('/project/:id', (req,res,next) => {
+  const {id} = req.params;
+  let templateData = '';
+  if(id < data.length && id >= 0) {
+    templateData = data[id];
+    res.render('project', templateData);
+  } else {    
+    next();
+  }   
 });
 
 app.use((req,res,next) => {
-  const error = new Error("Page Not Found.");
+  const error = new Error("Page Not Found!");
   error.status = 404;
   next(error);
 });
 
 app.use((error,req,res,next) => {
-
+  res.locals.error = error;
+  const status = error.status || 500;
+  res.status = status;
+  if(res.status === 404) {
+    res.render('page-not-found', error);
+  } else {
+    res.render('error', error);
+  }
 });
 
 app.listen(3000, () => {
