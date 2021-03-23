@@ -19,7 +19,7 @@ block content
           //- The project title for the h5 element's text
       each project in data
         .cell
-          a(href=`${project.live_link}`)
+          a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/${project.image_urls[0].square}`, alt='Project preview picture as square icon')
             h5= project.project_name
 
