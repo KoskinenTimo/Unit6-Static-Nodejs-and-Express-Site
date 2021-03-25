@@ -35,12 +35,13 @@ app.use((req,res,next) => {
 app.use((error,req,res,next) => {
   res.locals.error = error;
   const status = error.status || 500;
-  res.status = status;
+  res.status(status);
   if(res.status === 404) {
     res.render('page-not-found', error);
   } else {
     res.render('error', error);
   }
+  console.log(`Message: ${error.message} Status: ${error.status}`);
 });
 
 app.listen(3000, () => {
