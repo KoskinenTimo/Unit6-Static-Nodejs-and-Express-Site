@@ -1,3 +1,9 @@
+TO START THE APP:
+npm install
+npm start
+
+Will start at http://localhost:3000/
+
 _________________________________________________________________
 LINKS AND BUTTONS ARE TABBABLE, STYLES FOR THESE ADDED AND
 HOVER CHANGE IMPLEMENTED
