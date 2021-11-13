@@ -1,5 +1,7 @@
 TO START THE APP:
+
 npm install
+
 npm start
 
 Will start at http://localhost:3000/
